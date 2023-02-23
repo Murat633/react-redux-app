@@ -1,0 +1,58 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "categoryId": 2,
+            "productName": "Chai",
+            "quantityPerUnit": "48 - 6 oz jars",
+            "unitPrice": "23",
+            "unitsInStocks": 53
+        },
+        {
+            "id": 2,
+            "categoryId": 1,
+            "productName": "depetsai",
+            "quantityPerUnit": "48 - 6 oz jars",
+            "unitPrice": "23",
+            "unitsInStocks": 53
+        },
+        {
+            "id": 3,
+            "categoryId": 3,
+            "productName": "lorem ipsum dolor",
+            "quantityPerUnit": "48 - 6 oz jars",
+            "unitPrice": "23",
+            "unitsInStocks": 80
+        },
+        {
+            "id": 4,
+            "categoryId": 4,
+            "productName": "lorem ipsum dolor erdis",
+            "quantityPerUnit": "48 - 6 oz jars",
+            "unitPrice": "23",
+            "unitsInStocks": 70
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "categoryName": "Beverages",
+            "seoUrl": "beverages"
+        },
+        {
+            "id": 2,
+            "categoryName": "Category 2",
+            "seoUrl": "category-2"
+        },
+        {
+            "id": 3,
+            "categoryName": "Cars",
+            "seoUrl": "cars"
+        },
+        {
+            "id": 4,
+            "categoryName": "Supers",
+            "seoUrl": "supers"
+        }
+    ]
+}
