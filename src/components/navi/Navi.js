@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { connect } from 'react-redux'
 import {
     Navbar,
     NavbarBrand,
@@ -9,37 +10,29 @@ import {
     DropdownToggle,
     DropdownMenu,
     DropdownItem,
+    Badge
 } from 'reactstrap'
-
-export default class Navi extends Component {
+import { bindActionCreators } from 'redux'
+import { removeFromCart } from '../../redux/actions/cartActions'
+import alertify from 'alertifyjs'
+import CartSummary from '../cart/CartSummary'
+import { Link } from 'react-router-dom'
+class Navi extends Component {
     state = { isOpen: false }
+
+
 
     render() {
         return (
             <Navbar>
                 <NavbarBrand href="/">reactstrap</NavbarBrand>
                 <Nav className="me-auto">
-                    <NavItem>
-                        <NavLink href="/components/">Components</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink href="https://github.com/reactstrap/reactstrap">
-                            GitHub
-                        </NavLink>
-                    </NavItem>
-                    <UncontrolledDropdown nav inNavbar>
-                        <DropdownToggle nav caret>
-                            Options
-                        </DropdownToggle>
-                        <DropdownMenu end>
-                            <DropdownItem>Option 1</DropdownItem>
-                            <DropdownItem>Option 2</DropdownItem>
-                            <DropdownItem divider />
-                            <DropdownItem>Reset</DropdownItem>
-                        </DropdownMenu>
-                    </UncontrolledDropdown>
+                    <Link style={{ textDecoration: "none", margin: "auto", marginRight: "5px" }} to="/">Home</Link>
+                    <CartSummary />
                 </Nav>
-            </Navbar>
+            </Navbar >
         )
     }
 }
+
+export default Navi

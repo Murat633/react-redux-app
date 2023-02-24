@@ -31,6 +31,62 @@
             "quantityPerUnit": "48 - 6 oz jars",
             "unitPrice": "23",
             "unitsInStocks": 70
+        },
+        {
+            "id": 5,
+            "categoryId": 4,
+            "productName": "lorem ipsum dolor erdis",
+            "quantityPerUnit": "48 - 6 oz jars",
+            "unitPrice": "23",
+            "unitsInStocks": 70
+        },
+        {
+            "id": 6,
+            "categoryId": 4,
+            "productName": "lorem ipsum dolor erdis",
+            "quantityPerUnit": "48 - 6 oz jars",
+            "unitPrice": "23",
+            "unitsInStocks": 70
+        },
+        {
+            "id": 7,
+            "categoryId": 4,
+            "productName": "lorem ipsum dolor erdis",
+            "quantityPerUnit": "48 - 6 oz jars",
+            "unitPrice": "23",
+            "unitsInStocks": 70
+        },
+        {
+            "id": 8,
+            "categoryId": 4,
+            "productName": "lorem ipsum dolor erdis",
+            "quantityPerUnit": "48 - 6 oz jars",
+            "unitPrice": "23",
+            "unitsInStocks": 70
+        },
+        {
+            "id": 9,
+            "categoryId": 4,
+            "productName": "lorem ipsum dolor erdis",
+            "quantityPerUnit": "48 - 6 oz jars",
+            "unitPrice": "23",
+            "unitsInStocks": 70
+        },
+        {
+            "id": 10,
+            "categoryId": 4,
+            "productName": "lorem ipsum dolor erdis",
+            "quantityPerUnit": "48 - 6 oz jars",
+            "unitPrice": "23",
+            "unitsInStocks": 70
+        },
+        {
+            "id": 11,
+            "categoryId": 4,
+            "productName": "lorem ipsum dolor erdis",
+            "quantityPerUnit": "48 - 6 oz jars",
+            "unitPrice": "23",
+            "unitsInStocks": 70
         }
     ],
     "categories": [
