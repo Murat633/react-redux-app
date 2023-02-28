@@ -16,6 +16,8 @@ class ProductList extends Component {
         alertify.success(`${product.productName} Sepete Eklendi`)
     }
 
+
+
     render() {
         return (
             <div>
